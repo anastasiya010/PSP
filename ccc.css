@@ -1,0 +1,75 @@
+body {
+    background-color: #121212; /* Темный фон для страницы */
+    color: #ffffff; /* Цвет текста на странице */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #1e1e1e; /* Темный фон калькулятора */
+    padding: 20px;
+    border-radius: 10px; /* Скругленные края */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.my-btn { 
+    margin-right: 5px;           
+    margin-top: 5px;             
+    width: 50px;              
+    height: 50px;              
+    border-radius: 5px; /* Квадратные кнопки */
+    border: none;              
+    background: #a73afd; /* Новый цвет кнопок */
+    color: #ffffff;                
+    font-size: 1.5rem;           
+    font-family: 'Arial', sans-serif; 
+    cursor: pointer;             
+    user-select: none;           
+} 
+
+.my-btn:hover {
+    background: #575757; /* Новый цвет при наведении */
+}
+
+.my-btn:active {
+    filter: brightness(130%); 
+}
+
+.my-btn.primary { 
+    background: #660ac2; /* Новый цвет для первостепенных операций */
+}
+
+.my-btn.secondary { 
+    background: #ff5722; /* Новый цвет для второстепенных операций */
+}
+
+.my-btn.execute { 
+    width: 110px;          
+    border-radius: 10px;   
+}
+
+.my-btn.tema {
+    font-size: 1rem;
+    width: 100px;
+    background: #7d738c;
+}
+.result { 
+    width: 300px; /* Увеличенный размер окна вывода */
+    height: 50px;
+    margin-bottom: 15px;        
+    padding-right: 10px;        
+    background: #c49efa; /* Новый цвет фона для вывода результата */
+    text-align: right;          
+    color: #6b3166; /* Новый цвет текста результата */
+    font-size: 2rem; /* Увеличенный размер шрифта */
+    font-weight: bold; /* Более толстый шрифт */
+    border-radius: 10px; /* Скругленные края */
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
