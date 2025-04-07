@@ -1,0 +1,114 @@
+
+/* опишем базовый стиль кнопки калькулятора */
+.my-btn { 
+  height: 50px;                /* задаем высоту кнопки */
+  border: none;                /* отключаем обводку */
+  background:  #7d738c;         /* задаем серый цвет кнопки */
+  color: white;                /* задаем белый цвет текста внутри кнопки */
+  font-size: 1.5rem;           /* увеличим размер шрифта */
+  font-family: Arial, Helvetica, sans-serif; /* сменим шрифт */
+  cursor: pointer;             
+  width: 70px;
+  border-radius: 10%;
+  margin-right: 5px;           
+  margin-top: 5px; 
+  user-select: none;           /* отключаем возможность выделить текст внутри кнопки */
+} 
+  
+ 
+  /* hover - это состояние элемента, когда на него наведен курсор */
+  .my-btn:hover {
+    filter: brightness(70%); 
+  }
+
+  .my-btn.iz{
+    width: 300px;
+    background: #ff8533;
+    font-size: 1rem;
+
+  }
+  
+  /* active - это состояние активации элемента. В случае кнопки - нажатие на нее */
+  .my-btn:active {
+    filter: brightness(130%); /* увеличим интенсивность цвета для эффекта вспышки */
+  }
+  
+  /* селектор для кнопок первостепенных операций */
+  .my-btn.primary { 
+    background: #800cf2; 
+  }
+  
+
+.my-btn.oll {
+  width: 70px;
+  border-radius: 10%;
+  margin-right: 5px;           
+  margin-top: 5px; 
+  margin-left: 0px;
+  background:  #a73afd; 
+}
+
+
+.my-btn.fon {
+  width: 70px;                 
+  height: 20px;  
+  border-radius: 10%;
+  font-size: 1rem; 
+  margin-right: 3px;  
+  margin-left: 0px;
+  background: #660ac2;
+}
+
+.my-btn.del {
+  width: 70px;                 
+  height: 20px;  
+  border-radius: 10%;
+  font-size: 1rem; 
+  margin-right: 3px;  
+  margin-left: 85px;
+  background: #660ac2;
+}
+
+.my-btn.big{
+  width: 150px;
+  height: 100px; 
+  border-radius: 10%;
+  margin-right: 5px;         
+  margin-top: 5px; 
+  background:  #c49efa; 
+  margin-left: 0px;
+}
+
+.my-btn.oper{
+  background: #ff8533;
+}
+  
+  /* селектор для поля вывода результата */
+  .result { 
+    width: 300px;
+    height: 50px;
+    background: #b6b6c9;
+    border-radius: 10px;
+    margin-bottom: 25px;         /* отступ снизу */
+    padding-right: 10px;         /* выступ справа */
+    text-align: left;           /* примагнитим текст к правой стороне */
+    color: white;              /* цвет текста белый */
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  /* Темная тема */
+body.dark-theme {
+  background: #1c052a;
+  color: #ecf0f1;
+}
+
+.result.custom-result-theme {
+  background: #ecb45f !important;
+  color: #fff !important;
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+
+
