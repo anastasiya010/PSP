@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildberries-like Shop</title>
+    <link rel="stylesheet" href="lr3.css">
+</head>
+<body>
+    <header class="header">
+        <button class="home-btn" onclick="showHomePage()">Домой</button>
+    </header>
+
+    <main class="main-content">
+        <!-- Главная страница -->
+        <div id="home-page">
+            <button class="add-btn" onclick="addNewProduct()">+ Добавить товар</button>
+            <div class="container">
+                <aside class="filters">
+                    <h3 class="filters-title">Фильтры</h3>
+                    <div class="filter-group">
+                        <label class="filter-label">Цена до:</label>
+                        <input type="range" id="priceFilter" class="price-slider" min="0" max="100000" value="100000">
+                        <span id="priceValue" class="price-value">100 000 ₽</span>
+                        <br><h3 class="filters-title">Выберите категорию товара:</h3></br>
+                        <div class="category-filter">
+                            <br><label class="checkbox-container">
+                                <input type="checkbox" value="одежда" checked> Одежда
+                                <span class="checkmark"></span>
+                            </label></br>
+                            <br><label class="checkbox-container">
+                                <input type="checkbox" value="обувь" checked> Обувь
+                                <span class="checkmark"></span>
+                            <br></label></br>
+                            <label class="checkbox-container">
+                                <input type="checkbox" value="канцелярия" checked> Канцелярия
+                                <span class="checkmark"></span>
+                            </label></br>
+                        </div>
+                    </div>
+                </aside>
+                
+                <section class="products-grid" id="productsContainer"></section>
+            </div>
+        </div>
+
+        <!-- Страница товара -->
+        <div id="detail-page" class="detail-page">
+            <div class="product-detail" id="productDetail"></div>
+        </div>
+    </main>
+
+    <script src="lr3.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
