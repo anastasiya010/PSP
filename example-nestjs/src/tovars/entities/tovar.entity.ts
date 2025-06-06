@@ -1,6 +1,8 @@
 export class Tovar {
-  id: number;
-  title: string;
-  text: string;
-  src: string;
+    id: number;
+    name: string;
+    price: number;
+    category: string;
+    description: string;
+    image: string;
 }

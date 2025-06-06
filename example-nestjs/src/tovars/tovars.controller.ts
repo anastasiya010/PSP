@@ -14,8 +14,8 @@ export class TovarsController {
   }
 
   @Get()
-  findAll(@Query('title') title?: string): Tovar[] {
-    return this.tovarsService.findAll(title);
+  findAll(@Query('name') name?: string): Tovar[] {
+    return this.tovarsService.findAll(name);
   }
 
   @Get(':id')

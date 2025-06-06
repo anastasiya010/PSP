@@ -1,26 +1,74 @@
 [
     {
         "id": 1,
-        "title": "Футболка",
-        "text": "Хлопковая футболка с принтом",
-        "src": "https://futbolka-print.ru/wp-content/uploads/2019/12/35-3.jpg"
+        "name": "Футболка",
+        "price": 1999,
+        "category": "одежда",
+        "description": "Хлопковая футболка с принтом",
+        "image": "images/prod_1.jpg"
     },
     {
         "id": 2,
-        "title": "Кроссовки спортивные",
-        "text": "Легкие беговые кроссовки",
-        "src": "https://yandex-images.clstorage.net/l4tp82n66/1e20ecl4_/1cxz3EsjEngVZVXI2uewk_lskc1WBudrRWvMD7WEzyq9brTCpRH_cbtVacJW7qjLJhxVx39qxc5yzW0eJYZWUpDRPtUqKmtkFXEE5PPX2KO5OaG4WlPvD1V2qD7hfVbLaLcFNmjkKrUaUWieS6uZ-jMEoFp7W_DHBz2phlFnB6sVQJdoD08fYMWlxKA2szQ3JZXtXWrjS9Ilc_G3AaWaG4wPNVbkIHJZmtXMKrsTaN7_TDyzrwM4R-fNuRp9U38HNYAnTIfLZ3CFcSw8Ilucj01VQW3uE9_GIV9JT3VJGitQD-lSDCR6FWKp9BI_IySmY_Q8d0vnKNPrvUmysXffh1kYz5TTZ49wfVmAVObzmGtxhf3VFtN_mh1nYcMV6W4HWH9xDiRY7nHCcXxml3OcBt8AZC8zhywzh4lBjkWTi8-NjGMAUz_r5EHZpCz-gyzPRblhTUbHUwaFn3Uz6Y2uA_CT1aoIHG4dJo2oDpeXJO5DGAj3o_ekp3-9YdbxM2crNSBTsFPvu2QZNZDoIiPEy2Ul4fECB2_iDWvxr6ERaleMo2FqQOwyubJdRC7XsyAi_5i850Ov4Debjdl-fZvztx1MkzDHZ8dcxXEgSDZTIJ_1rTm58t_v7j1fVWv9Ne5roAc1OvgEdtli6bhOD6PoCuuUZA_f18BD92FB1j339xNxdFtM34-LqO3NzGT-oxC3fRVp7Q5z6_IVBxErHUkOw8SrrRpo1BYhajHIku_7zCprkMhj6-eQi6dRKS4J5zvjFXCroBsz79yxWSDAElNo42URBRFmxwem6RthR5HdYn9AGy1uCKTenRYp9AaLa1DWH3SAL39D9MMnlUEKwaOH1-k464DrK3dQMdGIWCpr0D-5HR0dlu-_7oUDveu1BXbbDDN9OpDQIhW6ZWj2f18gCnewHHdvXygnk41tnnFT5w_tVE8g_19PYHm1_GQKS7xruVXpad7_a0ohZ9n_SUH0"
+        "name": "Кроссовки спортивные",
+        "price": 11999,
+        "category": "обувь",
+        "description": "Легкие беговые кроссовки",
+        "image": "images/prod_2.webp"
     },
     {
         "id": 3,
-        "title": "Ежедневник",
-        "text": "Ежедневник A5 в твердом переплете",
-        "src": "https://brandpresent.ru/_f/104/1500/p77/bp_p773451_03.jpg"
+        "name": "Ежедневник",
+        "price": 899,
+        "category": "канцелярия",
+        "description": "Ежедневник A5 в твердом переплете",
+        "image": "images/prod_3.jpg"
     },
     {
         "id": 4,
-        "title": "Брюки",
-        "text": "Черные классические брюки",
-        "src": "https://avatars.mds.yandex.net/get-mpic/5284145/img_id4337629652368726408.jpeg/orig"
+        "name": "Брюки",
+        "price": 4499,
+        "category": "одежда",
+        "description": "Черные классические брюки",
+        "image": "images/prod_4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Ботинки",
+        "price": 14999,
+        "category": "обувь",
+        "description": "Ботинки зимние из натуральной кожи",
+        "image": "images/prod_5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Набор ручек",
+        "price": 399,
+        "category": "канцелярия",
+        "description": "Набор шариковых ручек с синими чернилами",
+        "image": "images/prod_6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Джинсы",
+        "price": 4999,
+        "category": "одежда",
+        "description": "Джинсы женские свободного кроя",
+        "image": "images/prod_7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Кеды",
+        "price": 7990,
+        "category": "обувь",
+        "description": "Кеды унисекс",
+        "image": "images/prod_8.webp"
+    },
+    {
+        "id": 9,
+        "name": "Цветные карандаши",
+        "price": 1200,
+        "category": "канцелярия",
+        "description": "Цветные карандаши для рисования",
+        "image": "images/prod_9.webp"
     }
 ]

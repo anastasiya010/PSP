@@ -10,20 +10,21 @@ import { join } from 'path';
 export class TovarsService {
   constructor(private fileService: FileService<Tovar[]>) {}
 
-  findAll(title?: string): Tovar[] {
+  findAll(name?: string): Tovar[] {
     const tovars = this.fileService.read();
 
-    return title
+    return name
       ? tovars.filter((tovar) =>
-          tovar.title.toLowerCase().includes(title.toLowerCase()),
+          tovar.name.toLowerCase().includes(name.toLowerCase()),
         )
       : tovars;
   }
 
-  create(createTovarDto: CreateTovarDto) {
+  create(createTovarDto: CreateTovarDto) : Tovar {
     const tovars = this.fileService.read();
     const tovar = { ...createTovarDto, id: tovars.length + 1 };
     this.fileService.add(tovar);
+    return tovar;
   }
 
   findOne(id: number): Tovar | null {
